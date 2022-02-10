@@ -298,7 +298,7 @@ deploy-production-metadata:
 
     # By default, the CLI periodically checks for and installs updates.
     # Disable (false) this auto-update check to improve performance of CLI commands.
-    export SFDX_AUTOUPDATE_DISABLE=false
+    export SFDX_AUTOUPDATE_DISABLE=true
 
     # Set to true if you want to use the generic UNIX keychain instead of the Linux libsecret library or macOS keychain.
     # Specify this variable when using the CLI with ssh or "headless" in a CI environment.
