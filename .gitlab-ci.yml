@@ -717,7 +717,6 @@ deploy-production-metadata:
 
   }
 
-
   # Promote package version.
   # Only required in production.
   # Arguments:
